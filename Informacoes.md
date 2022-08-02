@@ -24,9 +24,21 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
+            <title>Aula 02/08/2022</title>
         </head>
         <body>
             <script src="./scripts.js"></script>
         </body>
     </html>
+
+# Comentários
+// Aqui eu tenho um tipo de comentário. Tipo linha.
+// O código escreve uma msg no console.
+
+/*
+    Comentário de blocos
+    console.log('Bem vindos a nossa mega blaster aula');
+    console.log("Bem vindos ao JS");
+*/
+console.log('Bem vindos a nossa mega blaster aula');
+console.log("Bem vindos ao JS");
