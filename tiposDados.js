@@ -1,13 +1,13 @@
 //string
 console.log('thiago ngarcia');
-console.log('thiago garcia');
-//console.log("thiago garcia');
+console.log("thiago garcia");
+//console.log("thiago garcia'");
 //console.log('thiago garcia`);
 
 //Expreções de linguagem
 console.log(`thiago garcia 000 ${1 + 1}`); // Interpolação
-console.log("thiago garcia 000 ${1 + 1}");
-console.log('thiago garcia 000 ${1 + 1}');
+console.log("thiago garcia 222 ${1 + 1}");
+console.log('thiago garcia 111 ${1 + 1}');
 console.log('thiago garcia' + 2 + 2);
 
 //number
@@ -24,14 +24,14 @@ console.log(false);
 console.log(undefined);
 console.log(null);
 
-console.log(null === undefined);
+console.log(null === null);
 
 //Object
 console.log({
-    name:"cachorro",
+    animal:"cachorro",
     idade:5,
     andar: function(){
-        console.log.log('andar');
+        console.log('andar');
     }
 })
 
