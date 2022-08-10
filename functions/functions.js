@@ -67,7 +67,27 @@ function createObject(object) {
 console.log(object);
 console.log(createObject(object));
 console.log(object);
+
+
 //FUNCTION HOISTING
+sayMayName();
+function sayMayName(params) {
+    console.log("thiago garcia Function hosting");
+}
+
+
 //ARROW FUNCTIONS
+const sayMayName = () => {
+    console.log("Thiago Garcia");
+}
+sayMayName();
+
+//-----------------------------------------------
+
+const sayMayName2 = ( name ) => {
+    console.log( name );
+}
+sayMayName('Thiago Garcia');
+
 //CALLBACK FUNCTION
 //FUNÇÕES CONSTRUTORAS.
