@@ -132,31 +132,34 @@
 // }
 //     const jose = new Person("José", "311.283.738-07", 39);
 //     const mariana = new Person("Mariana", "311.283.738-07", 26);
+//     const rafael = new Person("Rafel", "311.283.738-07", 26);
+
 //     console.log(jose);
 //     console.log(mariana);
+//     console.log(rafael);
 
 //--------------------------------------------------------------------
 
 //FUNÇÕES DO JS
-// let nameString = new String("Thiago Nicola Cajuela Garcia");
-// console.log(nameString);
+//  let nameString = new String("Thiago Nicola Cajuela Garcia");
+//  console.log(nameString);
 
-//  let numerInteger = new Number(1934);
-//  console.log(numerInteger);
+//   let numerInteger = new Number(1934);
+//   console.log(numerInteger);
 
-//let date = new Date();
-//console.log(date);
+// let date = new Date();
+// console.log(date);
 
-//let randomNumber =  Math.random();
-//console.log(randomNumber);
+let randomNumber =  Math.random();
+console.log(randomNumber);
 
 //EXEMPLO
-// function randomIntervalNumber(number1, number2) {
-//     return Math.floor(Math.random() * (number2 - number1 + 1)) + number1;    
-// }
-// console.log(randomIntervalNumber(0, 150));
-// console.log(randomIntervalNumber(0, 1));
-// console.log(randomIntervalNumber(5, 10));
+function randomIntervalNumber(number1, number2) {
+    return Math.floor(Math.random() * (number2 - number1 + 1)) + number1;    
+}
+console.log(randomIntervalNumber(0, 150));
+console.log(randomIntervalNumber(0, 1));
+console.log(randomIntervalNumber(5, 10));
 
 
 

@@ -27,21 +27,25 @@ function createPhrases() {
     );
 
     //Mostra a frase na posição 2 do array
-    console.log(phrases[2]);
+    //console.log(phrases[2]);
     //alert(phrases[2].phrase); 
 
     //listSize (tamanho da lista) recebe o tamanho total da lista
     let listSize = phrases.length;
-    console.log(`O tamanho da lista é, ${listSize}`);
+    //console.log(`O tamanho da lista é, ${listSize}`);
 
     //frase sorteada Algoritimo que sorteia um numero do tamanho da lista
     let drawPhrase = Math.floor(Math.random() * (listSize - 0 + 1)) ;
-    console.log(`Valor sorteado, ${drawPhrase}`);
+    //console.log(`Valor sorteado, ${drawPhrase}`);
 
     //Mostra a frase sorteada(ListaDaFrase[]
-    console.log('A frase sorteada é',phrases[drawPhrase]);
+    console.log(phrases[drawPhrase]);
+
+    return phrases[drawPhrase];
+
 }
 createPhrases();
+
 
 
 
