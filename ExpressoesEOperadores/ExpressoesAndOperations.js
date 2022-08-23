@@ -36,55 +36,55 @@ console.log(true ? 'alo' : 'nada');
     deleter
  */
 
-    const Students = {
-        nameStudent: 'Thiago',
-        age: 25,
-    }
-    delete Students.age; // Se o identificar age existir ele será deletado
-    console.log(Students);
+const Students = {
+    nameStudent: 'Thiago',
+    age: 25,
+}
+delete Students.age; // Se o identificar age existir ele será deletado
+console.log(Students);
 
-    //OPERADORES ARITMÉTICOS
-
-
-        //multiplicação
-        console.log(3.2 * 5);
-
-        //divisão
-        console.log(12 / 2);
-
-        //soma
-        console.log(34 + 67);
-
-        //subtração
-        console.log(34 - 23);
+//OPERADORES ARITMÉTICOS
 
 
-        //resto da divisão % (Resto)
-        let remainder
-        remainder = 11 % 9;
-        console.log( remainder );
+//multiplicação
+console.log(3.2 * 5);
 
-        //incremento ++ 
-        let increment = 0;
-        increment++;
-        console.log(increment);
-        console.log(increment++);
-        console.log(++increment);
-        console.log(increment);
+//divisão
+console.log(12 / 2);
+
+//soma
+console.log(34 + 67);
+
+//subtração
+console.log(34 - 23);
 
 
-        //decremento --
-        let decrement = 4;
-        console.log(decrement);
+//resto da divisão % (Resto)
+let remainder
+remainder = 11 % 9;
+console.log(remainder);
 
-        console.log(decrement--);
-        console.log(--decrement);
+//incremento ++ 
+let increment = 0;
+increment++;
+console.log(increment);
+console.log(increment++);
+console.log(++increment);
+console.log(increment);
 
-        console.log(decrement);
 
-        //exponencial
-        console.log(3 ** 3); // 27
-        console.log( 3 ** 2); // 9
+//decremento --
+let decrement = 4;
+console.log(decrement);
+
+console.log(decrement--);
+console.log(--decrement);
+
+console.log(decrement);
+
+//exponencial
+console.log(3 ** 3); // 27
+console.log(3 ** 2); // 9
 
 
 
@@ -108,22 +108,22 @@ let two = 2;
 // == igual a
 // = recebe 1
 
-console.log( two == 1); // retorna ?
-console.log( one == "1"); // retorna ?
+console.log(two == 1); // retorna ?
+console.log(one == "1"); // retorna ?
 
 // != diferente de 
-console.log( one != two );
-console.log( one != 1 );
-console.log( one != "1");
+console.log(one != two);
+console.log(one != 1);
+console.log(one != "1");
 
 // == estritamente igual a
-console.log( one === "1"); // false
-console.log( one === 1); // true
+console.log(one === "1"); // false
+console.log(one === 1); // true
 
 
 // !=== estritamenter diferente de 
-console.log( two !== "2"); // true
-console.log( two !== 2); // false
+console.log(two !== "2"); // true
+console.log(two !== 2); // false
 
 
 //Operadores de comparação
@@ -131,19 +131,19 @@ let onee = 1;
 let twoo = 2;
 
 // > Maior que
-console.log( onee > twoo );
+console.log(onee > twoo);
 
 // >= Maior igual a 
-console.log( onee >= 1 );
-console.log( twoo >= 1 );
+console.log(onee >= 1);
+console.log(twoo >= 1);
 
 // Menor que
-console.log( onee < twoo);
+console.log(onee < twoo);
 
 //Menor = que
-console.log( onee <= twoo );
-console.log( twoo <= 1 );
-console.log( twoo <= 0 );
+console.log(onee <= twoo);
+console.log(twoo <= 1);
+console.log(twoo <= 0);
 
 //Operadores de atribuição:
 let x
@@ -166,7 +166,7 @@ x *= 2;
 x /= 2;
 
 // exponetiation assignment 
-x **=2;
+x **= 2;
 
 
 // OPERADORES LOGICOS
@@ -174,13 +174,13 @@ let pao = true;
 let queijo = true;
 
 //AND &&
-console.log( pao && queijo );
+console.log(pao && queijo);
 
 // OR ||
-console.log( pao || queijo);
+console.log(pao || queijo);
 
 //NOT !
-console.log( !pao ); // Operação de negação / Nega o valor da variavel
+console.log(!pao); // Operação de negação / Nega o valor da variavel
 
 //CONDIÇÃO TERNARIA VALOR1 SENÃO VALOR 2
 //condition ? value1 : value2;
@@ -191,6 +191,41 @@ console.log(meuCafeDaManha);
 let ageDriver = 16;
 const canDrive = ageDriver >= 18 ? "Can Drive" : "Can't drive"; // Posso dirigir, não posso dirigir
 console.log(canDrive);
+
+let cars = [
+    {
+        brand: 'Fordka',
+        year: 1983,
+        color: 'red',
+        isSubscribed: true,
+    },
+    {
+        brand: 'Mercedes',
+        year: 1983,
+        color: 'red',
+        isSubscribed: true,
+
+    },
+    {
+        brand: 'BMW',
+        year: 1983,
+        color: 'red',
+        isSubscribed: true,
+    },
+    {
+        brand: 'Fordka',
+        year: 1983,
+        color: 'red',
+        isSubscribed: true,
+    }]
+
+    //Verifica se o carro é igual - Função do JS
+    const isObjectEqual = (objA, objB) => {
+        return JSON.stringify(objA) === JSON.stringify(objB);
+    };
+    carDelete = isObjectEqual(cars[0], cars[3]) ? 'Carro repetido' : 'Carro diferente';
+    console.log(carDelete);
+
 
 
 
