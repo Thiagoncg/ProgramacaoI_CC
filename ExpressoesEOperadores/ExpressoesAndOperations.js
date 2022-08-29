@@ -192,39 +192,8 @@ let ageDriver = 16;
 const canDrive = ageDriver >= 18 ? "Can Drive" : "Can't drive"; // Posso dirigir, não posso dirigir
 console.log(canDrive);
 
-let cars = [
-    {
-        brand: 'Fordka',
-        year: 1983,
-        color: 'red',
-        isSubscribed: true,
-    },
-    {
-        brand: 'Mercedes',
-        year: 1983,
-        color: 'red',
-        isSubscribed: true,
 
-    },
-    {
-        brand: 'BMW',
-        year: 1983,
-        color: 'red',
-        isSubscribed: true,
-    },
-    {
-        brand: 'Fordka',
-        year: 1983,
-        color: 'red',
-        isSubscribed: true,
-    }]
 
-    //Verifica se o carro é igual - Função do JS
-    const isObjectEqual = (objA, objB) => {
-        return JSON.stringify(objA) === JSON.stringify(objB);
-    };
-    carDelete = isObjectEqual(cars[0], cars[3]) ? 'Carro repetido' : 'Carro diferente';
-    console.log(carDelete);
 
 
 
