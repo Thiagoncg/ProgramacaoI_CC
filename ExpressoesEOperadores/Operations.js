@@ -185,7 +185,8 @@ const canDrive = ageDrive >= 18 ? "Pode Dirigir" : "Não Pode";
 console.log("A Pessoa", canDrive);
 
 // Criar uma lista de 10 Carros.
-// Na lista um carro deve ser repetido.
-// Verificar se tiver carro repetido - Deletar um dos carros.
-// Verificar s um dos carros tiver isSUbiscribe com True - Pode alugar.
-// Verificar s um dos carros tiver isSUbiscribe com false - Não pode alugar.
+// Na lista, um carro deve ser repetido.
+// Verificar se tiver carro repetido - Deletar um dos carros. Pode fazer a verificação por ID.
+// Verificar se. Um dos carros tiver a propriedade "isSUbiscribe": como True - informar no console Pode alugar.
+// Verificar se. Um dos carros tiver a propriedade "isSUbiscribe": como False - informar no console Não pode alugar.
+//Enviar o Arquivo NomeDoArquivo.json para avaliação

@@ -1,0 +1,31 @@
+ - 1º) Criar um sistema de notas escolares.
+    Criar um algoritimo que transforme as 
+    notas do sistema numérico para sistema de 
+    notas em caracteeres tipo A, B, C
+
+    * De 90 para cima A
+    * Entre 80 e e 89 B
+    * Entre 70 e 79 C
+    * Entre 60 e 69 D
+    * Menor que 60 F
+
+2º) Criar um fluxo de caixa famíliar.
+    Crie um Objeto que possuíra duas propriedades, ambas do tipo array:
+    * receitas: []
+    * despesas: []
+    Crie  uma função que ira calcular o total de receitas e despesas e
+    ira mostrar uma mensagem se a família esta com saldo positivo  ou negativo,
+    Seguindo do valor do saldo.
+
+3º) Celsius em Fahrenheit
+    Crie uma função que receba uma string em Celsius ou Fahrenheit e faça a transformação de uma unidade para outra
+
+4º) Buscando e encontrando dados em Array.
+    Baseado no array de livros pr categoria abaixo, faça os seguintes desafios
+        * Contar o numero de categorias e o numero de livros em cada categoria
+        * Contar o numero de autores.
+        * Mostrar livros do autor Augusto Cury
+        * Tranformar a função acima em uma funão que ira receber o nome do autor
+        que ira receber o nome do autor e devolver os livros dester autor
+
+
