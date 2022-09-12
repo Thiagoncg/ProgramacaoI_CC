@@ -77,17 +77,17 @@ function sayMayName(params) {
 
 
 //ARROW FUNCTIONS
-const sayMayName = () => {
+const sayMayName1 = () => {
     console.log("Thiago Garcia");
 }
-sayMayName();
+sayMayName1();
 
 //-----------------------------------------------
 
 const sayMayName2 = ( name ) => {
     console.log( name );
 }
-sayMayName('Thiago Garcia');
+sayMayName2('Thiago Garcia');
 
 //CALLBACK FUNCTION
 //FUNÇÕES CONSTRUTORAS.

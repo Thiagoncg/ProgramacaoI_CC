@@ -30,15 +30,3 @@ function createLovePhrases() {
 }
 
 createLovePhrases();
-
-
-
-
-
-
-
-
-lista 1º aula
-Lucas soares rosa
-ryan henrique
-Diogo ricardo

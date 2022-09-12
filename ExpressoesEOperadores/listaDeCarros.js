@@ -73,16 +73,19 @@ let cars = [
     console.log(cars); // Mostra a lista de carro sem o carro repetido
 
 
-    let position = 8;
-    let cantRent = cars[position].isSubscribed;
-    
-    if (cantRent === true) 
-    {
-        // Mostra que o carro não pode alugar
-        console.log("O carro", cars[position], "pode alugar");
+    for (let i = 0; i < cars.length; i++) {
+
+        let cantRent = cars[i].isSubscribed;
+        
+        if (cantRent === true) 
+        {
+            // Mostra que o carro não pode alugar
+            console.log("O carro", cars[i], "pode alugar");
+        }
+        else
+        {
+            //Mostra que o carro pode ser alugado
+            console.log("O carro", cars[i], "Não Pode Alugar");
+        }        
     }
-    else
-    {
-        //Mostra que o carro pode ser alugado
-        console.log("O carro", cars[position], "Não Pode Alugar");
-    }
+
