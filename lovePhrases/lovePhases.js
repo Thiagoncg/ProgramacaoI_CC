@@ -19,10 +19,12 @@ function createPhrases() {
         {
             phrase: "O amor é o espaço e o tempo tornados sensíveis ao coração.",
             author: "Marcel Proust",
+            
         },
         {
             phrase: "Se o amor é fantasia, eu me encontro ultimamente em pleno carnaval.",
             author: "Toquinho e Mutinho",
+
         }]
     );
 
